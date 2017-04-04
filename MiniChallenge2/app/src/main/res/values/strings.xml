@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">MiniChallenge2</string>
+    <string-array name="course_name">
+        <item>ADVANDB</item>
+        <item>INTRODB</item>
+        <item>ADVSTAT</item>
+        <item>ST-STAT</item>
+        <item>AUTOMAT</item>
+        <item>COMPRO1</item>
+        <item>COMPRO2</item>
+        <item>DASALGO</item>
+    </string-array>
+    <string-array name="course_desc">
+        <item>ADVANCED DATABASES</item>
+        <item>INTRO TO DATABSAES</item>
+        <item>ADVANCED STATISTICS</item>
+        <item>STATISTICS FOR SOFTWARE TECH</item>
+        <item>AUTOMATONS</item>
+        <item>COMPUTER PROGRAMMING IN C</item>
+        <item>COMPUTER PROGRAMMING IN C++</item>
+        <item>DATA STRUCTURES AND ALGORITHMS</item>
+    </string-array>
 </resources>
