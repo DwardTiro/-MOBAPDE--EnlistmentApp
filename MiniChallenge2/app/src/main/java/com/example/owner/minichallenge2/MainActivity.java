@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("1");
         StringRequest stringRequest = new StringRequest(
                 Request.Method.POST,
-                "http://192.168.1.9/Android/v1/userLogin.php",
+                Constants.URL_LOGIN,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
