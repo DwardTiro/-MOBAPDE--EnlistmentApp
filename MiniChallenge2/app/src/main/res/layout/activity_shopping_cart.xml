@@ -10,14 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.owner.minichallenge2.ShoppingCartActivity">
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="35dp"
-        android:id="@+id/lvCourseList"
-        android:layout_below="@+id/btnConfirm" />
-
     <TextView
         android:text="CART:"
         android:layout_width="wrap_content"
@@ -62,4 +54,13 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/btnRemove"
         android:onClick="addClick"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:id="@+id/lvCourseList"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/btnConfirm"
+        android:layout_marginStart="48dp" />
 </RelativeLayout>
