@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println("Here boys");
                         progressDialog.dismiss();
                         try {
-                            System.out.println("YOU FINALLY GOT IN");
                             JSONObject obj = new JSONObject(response);
                             if (!obj.getBoolean("error")) {
                                 SharedPrefManager.getInstance(getApplicationContext())
@@ -69,7 +68,8 @@ public class MainActivity extends AppCompatActivity {
                                                 obj.getString("gender"),
                                                 obj.getString("reg_date")
                                         );
-                                startActivity(new Intent(getApplicationContext(), UserActivity.class));
+                                System.out.println("U here na");
+                                startActivity(new Intent(getApplicationContext(), ShoppingCartActivity.class));
                                 finish();
                             } else {
                                 Toast.makeText(

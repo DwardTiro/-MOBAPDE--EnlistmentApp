@@ -8,6 +8,14 @@ public class Course {
     int courseID, prereqID, capacity;
     String courseName, courseDescription;
 
+    public Course(){
+        this.courseID = 0;
+        this.prereqID = 0;
+        this.capacity = 0;
+        this.courseName = "";
+        this.courseDescription = "";
+    }
+
     public Course(String courseID, String courseName){
         this.setCourseName(courseID);
         this.setCourseDescription(courseName);
